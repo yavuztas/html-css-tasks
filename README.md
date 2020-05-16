@@ -72,3 +72,13 @@ Bu tablonun HTML kodu aşağıdaki şekilde olacak:
 </table>
 ```
 **NOT:** Ayrıca `<keygen>` tagının deprecated olduğu yani artık kullanılmayacağıda sitede belirtiliyor. Zamanla destekleyen `Opera` ve `Safari` de de kaldırılabilir demek bu. Bunu da belirtmek faydalı olabilir.
+
+# Task 4 - Impl HTML & CSS Uygulama
+
+Burada about sayfasına resim ve video şu şekilde koyabilirsin:
+<p>İşte bizim muhteşem ekibimiz durmak bilmeden çalışmaya devam ediyor</p>
+<img src="https://blog.dacadoo.com/wp-content/uploads/2014/10/800x799/14107236.jpg" />
+<p>Ayrıca size son çalışmamızdan bazı görüntüler sunmak isteriz</p>
+<video width="320" height="240" controls>
+  <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+</video>
