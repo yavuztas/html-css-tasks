@@ -24,17 +24,17 @@ Bu sayfalarda belirtilen tagın ne işe yaradığı ve nasıl kullanılabileceğ
     <td>√</td>
     <td>√</td>
     <td>√</td>
-    <td>√</td>
+    <td>×</td>
     <td>√</td>
     <td>√</td>
   </tr>
   <tr>
     <td>keygen</td>
+    <td>×</td>
     <td>√</td>
-    <td>√</td>
-    <td>√</td>
-    <td>√</td>
-    <td>√</td>
+    <td>×</td>
+    <td>×</td>
+    <td>×</td>
     <td>√</td>
   </tr>
 </table>
