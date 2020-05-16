@@ -93,3 +93,22 @@ Bunları hizalamak için genellikle CSS kullanman gerekir. Hızlı bir çözüm 
 Üzerinde oynamak ve denemek istersen aşağıdaki codepen linkinden yapabilirsin:
 
 [https://codepen.io/justintc/pen/KKdGoym](https://codepen.io/justintc/pen/KKdGoym)
+
+# Task 5 - CSS Selectorlar
+
+Bu kısımda sadece CSS selector için hangi kaynaklardan çalışabilirsin onların linkini vermiş. En basit anlamda bir CSS selector a örnek verelim. Aşağıdaki şekilde bir HTML yapımız olsun:
+```html
+<div>
+  <p>başlık 1<p>
+  <p>başlık 2<p>
+</div>
+```
+Burada `<div>` tagının altındaki tüm `<p>` taglarını select etmek için şu CSS selector ifadesini kullanmalıyız:
+```css
+div > p {
+  color: red;  
+}
+```
+`div > p` selector ı sonucunda uyguladığımız stil ile `<div>` tagı altındaki tüm başlıkları kırmızı renke çevirmiş olduk.
+
+Verilen örneklerden [https://flukeout.github.io/](https://flukeout.github.io/) hem eğlenceli hem de interaktif olarak çalışmak için çok güzel duruyor. Tavsiye ederim.
