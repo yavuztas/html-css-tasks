@@ -84,9 +84,12 @@ Burada about sayfasına resim ve video şu şekilde koyabilirsin:
   <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
 </video>
 ```
-Bunları hizalamak için genellikle CSS kullanman gerekir. Hızlı bir çözüm olarak tavsiyem ayrı bir `<div>` tagı içine alıp stil olarak `text-align: center;` vermen kolay olacaktır:
+Bunları hizalamak için genellikle CSS kullanman gerekir. Hızlı bir çözüm olarak tavsiyem ayrı bir `<div>` tagı içine alıp hepsini ortalamak için stil olarak `text-align: center;` vermen kolay olacaktır:
 ```html
 <div style="text-align: center;">
   ... 
 </div>
 ```
+Üzerinde oynamak ve denemek istersen aşağıdaki codepen linkinden yapabilirsin:
+
+[https://codepen.io/justintc/pen/KKdGoym](https://codepen.io/justintc/pen/KKdGoym)
