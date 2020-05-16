@@ -76,9 +76,17 @@ Bu tablonun HTML kodu aşağıdaki şekilde olacak:
 # Task 4 - Impl HTML & CSS Uygulama
 
 Burada about sayfasına resim ve video şu şekilde koyabilirsin:
-<p>İşte bizim muhteşem ekibimiz durmak bilmeden çalışmaya devam ediyor</p>
-<img src="https://blog.dacadoo.com/wp-content/uploads/2014/10/800x799/14107236.jpg" />
-<p>Ayrıca size son çalışmamızdan bazı görüntüler sunmak isteriz</p>
-<video width="320" height="240" controls>
+```html
+<p>İşte bizim muhteşem ekibimiz durmak bilmeden çalışmaya devam ediyor:</p>
+<img width="600" src="https://blog.dacadoo.com/wp-content/uploads/2014/10/800x799/14107236.jpg" />
+<p>Ayrıca size son çalışmamızdan bazı görüntüler sunmak isteriz:</p>
+<video width="600" controls poster="http://media.w3.org/2010/05/sintel/poster.png">
   <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
 </video>
+```
+Bunları hizalamak için genellikle CSS kullanman gerekir. Hızlı bir çözüm olarak tavsiyem ayrı bir `<div>` tagı içine alıp stil olarak `text-align: center;` vermen kolay olacaktır:
+```html
+<div style="text-align: center;">
+  ... 
+</div>
+```
