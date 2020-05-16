@@ -71,4 +71,4 @@ Bu tablonun HTML kodu aşağıdaki şekilde olacak:
   </tr>
 </table>
 ```
-* NOT: Ayrıca `<keygen>` tagının deprecated olduğu yani artık kullanılmayacağıda sitede belirtiliyor. Zamanla destekleyen `Opera` ve `Safari` de de kaldırılabilir demek bu. Bunu da belirtmek faydalı olabilir.
+**NOT:** Ayrıca `<keygen>` tagının deprecated olduğu yani artık kullanılmayacağıda sitede belirtiliyor. Zamanla destekleyen `Opera` ve `Safari` de de kaldırılabilir demek bu. Bunu da belirtmek faydalı olabilir.
